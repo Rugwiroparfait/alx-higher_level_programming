@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-for i in range(0, 100):
-    if i == 99:
-        print('{}'.format(i))
-        break
-        print('{:02d}, '.format(i), end="")
+str = "Holberton School"
+print("{}{}{}".format(str, str, str))
+print(str[0:9])
