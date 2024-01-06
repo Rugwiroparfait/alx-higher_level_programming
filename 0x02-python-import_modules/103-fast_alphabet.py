@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 
-import uppercase_alpha
+import string
+print(''.join(list(string.ascii_uppercase)))
+
 
