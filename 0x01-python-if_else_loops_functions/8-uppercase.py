@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# 8-uppercase.py
 
 def uppercase(str):
     """Print a string in uppercase."""
@@ -9,7 +8,4 @@ def uppercase(str):
          print("{}".format(c), end="")
     print("")
 
-# Example usage
-uppercase("best")
-uppercase("Best School 98 Battery street")
 

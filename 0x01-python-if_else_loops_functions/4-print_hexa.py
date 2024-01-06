@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-
-for i in range(0, 99):
-    print('{} = {}'.format(i, hex(i)))
+number = 3.14159
+print("Float: {:0.2f}".format(number))
