@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""this module writes to a file"""
+"""module to read a text file"""
 
 
-def write_file(filename="", text=""):
-    """writes a string to a text file and returns
-    the number of characters written"""
-    with open(filename, encoding="utf-8", mode="w+") as f:
-        return f.write(text)
+def read_file(filename=""):
+    """reads a text file and prints it to stdout"""
+    with open(filename, encoding="utf-8") as f:
+        for line in f:
+            print(line, end="")
